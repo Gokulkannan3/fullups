@@ -1,0 +1,30 @@
+@media screen and (min-device-width: 760px) and (max-device-width: 1300px){
+    .login{
+        font-size:40px;
+    }
+    .out{
+        width:500px;
+    }
+    .underline{
+        font-size:30px;
+        font-weight:bolder;
+        margin-top:60px;
+        margin-left:4px;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 1000px){
+    .out{
+        width:500px;
+        justify-items:center
+    }
+    .login{
+        font-size:60px;
+    }
+    .underline{
+        font-size:30px;
+        font-weight:bolder;
+        margin-top:60px;
+        margin-left:4px
+    }
+}
