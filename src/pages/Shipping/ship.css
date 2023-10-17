@@ -8,21 +8,49 @@
 .box{
   background-color:#713e30;
 }
-@media screen and (max-width:1900px){
+.im{
+  height:420px !important;
+  margin-top:-156px !important;
+}
+
+@media screen and (min-device-width:1080px) and (max-device-width:1920px){
+  
+  html,body{
+    width:100%;
+    padding:0;
+    margin:0;
+    height:100%;
+  }
+  .im{
+    height:300px !important;
+    width:270px !important;
+    transform:translate(-100px,-126px) !important;
+  }
+  .progress-label{
+    width:150px !important;
+    height:50px;
+    font-size:15px;
+    font-weight:bold;
+  }
   .hero-content{
   margin-left:10px;
   }
   .parcelimg{
     margin-left:10px;
   }
+  .track{
+    width:150px;
+    height:50px;
+    margin-left:400px;
+    transform:translate(25px , -250px);
+  }
   .ttb{
     margin-right:50px;
     width:800px;
   }
-}
-@media screen and (min-width:2000px){
-  .totalcontent{
-    margin-right:40px;
+  .pro{
+    width:1000px;
+    transform:translate(-120px);
   }
 }
 /* .content {
@@ -112,9 +140,4 @@
   }
   .mr-10{
     margin-right: 270px;
-  }
-  @media (max-width:3000){
-    .container{
-      width:auto;
-    }
   }
